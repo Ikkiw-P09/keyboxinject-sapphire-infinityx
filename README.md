@@ -59,8 +59,6 @@ An automated ADB shell script designed to fetch the latest Keybox module from Dr
    ./keybox_auto.sh
    ```
 
----
-
 ### 🪟 Windows (CMD / PowerShell)
 1. **Clone or Download the repository.**
 2. **Run `keybox_auto.bat` directly in Command Prompt or PowerShell:**
