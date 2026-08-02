@@ -1,4 +1,4 @@
-# 🚀 KeyboxInject (Sapphire / Project Infinity X)
+# 🚀 KeyboxInject (for Redmi Note 13 4G/NFC (sapphire/sapphiren) on Project Infinity X 3.12 or newer)
 
 An automated ADB shell script designed to fetch the latest Keybox module from Droidwin, inject it into Project Infinity X settings, reset GMS attestation, and run Play Integrity Checker without requiring root access.
 
@@ -7,7 +7,7 @@ An automated ADB shell script designed to fetch the latest Keybox module from Dr
 ## 📱 Compatibility
 * **Device:** Redmi Note 13 4G / 4G NFC (`sapphire` / `sapphiren`)
 * **Display:** 1080x2400 @ ~395 DPI *(Required due to hardcoded tap coordinates)*
-* **ROM:** Project Infinity X 3.12
+* **ROM:** Project Infinity X 3.12 or newer
 * **Root Required:** **No** *(Works on non-rooted devices via ADB)*
 
 ---
@@ -24,13 +24,23 @@ An automated ADB shell script designed to fetch the latest Keybox module from Dr
 ---
 
 ## 📋 Prerequisites
-Make sure your PC has the following tools installed and added to PATH:
+
+### On your PC:
 * `adb` (Android Debug Bridge)
 * `curl`
 * `unzip`
 * `scrcpy`
 
-*(And ensure **USB Debugging** is enabled on your Android device)*
+### On your Android Device:
+* **[Play Integrity API Checker](https://play.google.com/store/apps/details?id=gr.nikolasspyr.integritycheck)** app must be pre-installed (`gr.nikolasspyr.integritycheck`).
+* **USB Debugging** enabled and authorized for your PC.
+
+---
+
+## ⚠️ Important Instructions Before Running
+1. **Unlock your phone screen** – The screen must be awake and unlocked so touch commands (`input tap`) can be executed.
+2. **Close all Settings and Recent Apps** – Swipe away the Settings app from recent apps to ensure a clean UI navigation and prevent "Activity not started" conflicts.
+3. **Ensure Play Integrity Checker is installed** – The script will automatically launch this app to verify the result.
 
 ---
 
@@ -63,3 +73,5 @@ Make sure your PC has the following tools installed and added to PATH:
 
 ## ⚠️ Disclaimer
 This script is provided for educational and personal automation purposes only. The touch coordinates are strictly mapped to 1080x2400 (395 DPI) screen layouts. Use at your own risk.
+
+---
