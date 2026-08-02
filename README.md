@@ -46,21 +46,26 @@ An automated ADB shell script designed to fetch the latest Keybox module from Dr
 
 ## 🚀 How to Use
 
+### 🐧 Linux / 🍎 macOS
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Ikkiw-P09/keyboxinject-sapphire-infinityx.git
    cd keyboxinject-sapphire-infinityx
    ```
 
-2. **Make the script executable:**
+2. **Make executable and run:**
    ```bash
    chmod +x keybox_auto.sh
-   ```
-
-3. **Connect your phone via USB and run:**
-   ```bash
    ./keybox_auto.sh
    ```
+
+---
+
+### 🪟 Windows (CMD / PowerShell)
+1. **Clone or Download the repository.**
+2. **Run `keybox_auto.bat` directly in Command Prompt or PowerShell:**
+   ```cmd
+   keybox_auto.bat
 
 ---
 
